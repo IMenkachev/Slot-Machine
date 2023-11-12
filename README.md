@@ -16,7 +16,7 @@ A simplified slot machine game (console application).
 
 | Symbol        |  Coefficient  |  Probability to appear on a cell |
 | ------------- | ------------- | -------------------------------- |
-| Apple(A)      |  0.4          |  45%                             |
+| Apple (A)     |  0.4          |  45%                             |
 | Banana (B)    |  0.6          |  35%                             |
 | Pineapple (P) |  0.8          |  15%                             |
 | Wildcard (*)  |  0            |  5%                              |
