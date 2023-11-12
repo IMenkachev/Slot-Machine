@@ -41,8 +41,8 @@ A simplified slot machine game (console application).
 When you run the app, it will welcome you to the slot game and you have to deposit "money" you would like to play with. 
 
 1. Deposit "money".
-2. Press <bold>Enter</bold>.
+2. Press **Enter**.
 3. If you have entered a valid deposit input then you have to enter a Stake (*valid input is a numeric value, non negative, greated thah 0 and with only one decimal place. For example, you can use '10.5' to represent ten and a half.*).
-4. Press <bold>Enter</bold> to start playing the game.
+4. Press **Enter** to start playing the game.
 5. Enter stakes untill the balance is greater than 0.
 6. Game ends when the balance hits 0.
