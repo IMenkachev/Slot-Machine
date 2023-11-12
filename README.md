@@ -14,11 +14,12 @@ A simplified slot machine game (console application).
 - A slot game with dimensions 4 rows of 3 symbols each.
 - Supports following symbols:
 
-#### Symbol        |  Coefficient  |  Probability to appear on a cell
-Apple(A)      |  0.4          |  45%<br>
-Banana (B)    |  0.6          |  35%<br>
-Pineapple (P) |  0.8          |  15%<br>
-Wildcard (*)  |  0            |  5%
+| Symbol        |  Coefficient  |  Probability to appear on a cell |
+| ------------- | ------------- | -------------------------------- |
+| Apple(A)      |  0.4          |  45%                             |
+| Banana (B)    |  0.6          |  35%                             |
+| Pineapple (P) |  0.8          |  15%                             |
+| Wildcard (*)  |  0            |  5%                              |
 
 - The symbols are placed randomly respecting the probability of each item. For example: there is 5% chance that a Wildcard will be placed in a cell and there is 45% chance for an Apple.
 - The player will win only if one or more horizontal lines contain 3 matching symbols. Wildcard (*) is a symbol that matches any other symbol (A, B or P).
@@ -26,13 +27,14 @@ Wildcard (*)  |  0            |  5%
 
 *Win calculation examples:*
 
-#### Win combinations | Calculation of win
-* P *            | (0 + 0.8 + 0)*10 = 8<br>
-A A A            | (0.4 + 0.4 + 0.4)*10 = 12<br>
-B B B            | (0.6 + 0.6 + 0.6)*10 = 18<br>
-P P P            | (0.8 + 0.8 + 0.8)*10 = 24<br>
-A B P            | No matching symbols<br>
-* A B            | No matching symbols
+| Win combinations | Calculation of win        |
+| ---------------- | --------------------------|
+| * P *            | (0 + 0.8 + 0)*10 = 8      |
+| A A A            | (0.4 + 0.4 + 0.4)*10 = 12 |
+| B B B            | (0.6 + 0.6 + 0.6)*10 = 18 |
+| P P P            | (0.8 + 0.8 + 0.8)*10 = 24 |
+| A B P            | No matching symbols       |
+| * A B            | No matching symbols       |
 
 ## Instructions
 
